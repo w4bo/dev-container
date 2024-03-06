@@ -9,10 +9,8 @@ jobs:
         - uses: actions/checkout@v4
         - name: Run docker
           run: |
-            docker build . -t sshd:latest
-            docker run -d -e PUBLIC_KEY="YOUR_PUB_KEY" -p 2222:22 -v /var/run/docker.sock:/var/run/docker.sock sshd:latest
-            echo "YOUR_KEY" >> authorized_keys
-            docker run -d -p 2223:22 -v /var/run/docker.sock:/var/run/docker.sock -v ./authorized_keys:/home/dev/.ssh/authorized_keys sshd:latest
+            echo "YOUR_KEY_HERE!" >> authorized_keys
+            docker compose up -d
     
     release:
       needs:

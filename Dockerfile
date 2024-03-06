@@ -23,6 +23,7 @@ RUN newgrp - docker
 RUN mkdir /var/run/sshd && \
     mkdir /home/dev/.ssh && \
     sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/sshd_config && \
+    sed -i 's/#LogLevel INFO/LogLevel DEBUG3/g' /etc/ssh/sshd_config && \
     echo "export VISIBLE=now" >> /etc/profile
 
 # Expose the SSH port
