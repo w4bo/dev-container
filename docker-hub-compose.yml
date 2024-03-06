@@ -1,10 +1,12 @@
 version: "3.9"
 
 services:
-  sshd-local:
-    build: .
+  sshd:
+    image: w4bo/sshd:1.0.1
     ports:
       - 2222:22
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./authorized_keys:/home/dev/.ssh/authorized_keys
+    # environment:
+    #   - PUBLIC_KEY="YOUR_KEY_HERE!" unnecessary if you mount the authorized_keys file
