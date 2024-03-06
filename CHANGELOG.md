@@ -1,3 +1,44 @@
+## 1.0.0 (2024-03-06)
+
+
+### Features
+
+* add quickstart ([23d743e](https://github.com/w4bo/dev-container/commit/23d743ec5a81ee4331015dc2d034a92f32d56643))
+* first release ([9fc3f7e](https://github.com/w4bo/dev-container/commit/9fc3f7e4ecbceaf5f5d63e05db7d583d21ee4777))
+* Include renovate ([4e3bd98](https://github.com/w4bo/dev-container/commit/4e3bd986d699b229aaa51e6195ffeac09f6ca031))
+* Initial commit ([a8418c2](https://github.com/w4bo/dev-container/commit/a8418c2ef40059f590e53def596e4ec58472dd41))
+
+
+### Bug Fixes
+
+* change image tagging in CI using gh refs ([63b034b](https://github.com/w4bo/dev-container/commit/63b034bcfd749e3f1c6ee94545f5c5044bd0e2c1))
+* change image tagging in CI using gh refs ([ecb28c9](https://github.com/w4bo/dev-container/commit/ecb28c9db7236c289eceb4fda3e2294aff3f2c1e))
+* change image tagging in CI using gh refs ([b1c0604](https://github.com/w4bo/dev-container/commit/b1c060485eae79e9de57e45ce4b91e30fa488771))
+* change image tagging in CI using gh refs ([6a37192](https://github.com/w4bo/dev-container/commit/6a371926a52648a7036f39dcfa94cd83a65db3b1))
+* change image tagging in CI using gh refs ([cb53386](https://github.com/w4bo/dev-container/commit/cb53386c62cd886b4f1b14ef5ecd9d3ea27b5dea))
+* change image tagging in CI using gh refs ([f8f0059](https://github.com/w4bo/dev-container/commit/f8f0059cfa04f2a95a388e18983b383452f8d5ac))
+* change image tagging in CI using gh refs ([d6be070](https://github.com/w4bo/dev-container/commit/d6be070096367299ecb81f948163723162090f3e))
+* **Dockerfile:** mounting the authorized_keys file ([#1](https://github.com/w4bo/dev-container/issues/1)) ([fb96848](https://github.com/w4bo/dev-container/commit/fb9684879c156d41ab5742bdbf9b14b0b3585f78))
+* fix syntax error in CI ([85299d8](https://github.com/w4bo/dev-container/commit/85299d815a777c5ca985cd997909281521d88519))
+* fix syntax error in CI ([013c26a](https://github.com/w4bo/dev-container/commit/013c26a04d24f7c52a1dcbc0c47b9ec2cdb0abfa))
+* prenvent failing if current directory changes ([4c9a0e5](https://github.com/w4bo/dev-container/commit/4c9a0e577c8069b8cd9d0be3fbefd4d88f71fe3d))
+
+
+### General maintenance
+
+* add disclaimer in README.md ([461120f](https://github.com/w4bo/dev-container/commit/461120ff39d665bf8928ffccf63435d7b2861ae1))
+* **release:** 1.0.0 [skip ci] ([ce0f0d6](https://github.com/w4bo/dev-container/commit/ce0f0d68835afab0bf9ae79a338748ff1e5df3a9))
+* **release:** 1.0.1 [skip ci] ([be641c4](https://github.com/w4bo/dev-container/commit/be641c4ff04d57c6f77e4987df2e878f3a039deb))
+* **release:** 1.0.2 [skip ci] ([33f4e74](https://github.com/w4bo/dev-container/commit/33f4e74dc81228e770c645284de5ffcc86451aa2))
+* **release:** 1.0.3 [skip ci] ([1d87e46](https://github.com/w4bo/dev-container/commit/1d87e4626402ad01f274671ec4f779035c5afd43))
+* **release:** 1.0.4 [skip ci] ([964facd](https://github.com/w4bo/dev-container/commit/964facd8a7eddc3cd8cc71c7be2e9bc516d483ae))
+* **release:** 1.0.5 [skip ci] ([99c9826](https://github.com/w4bo/dev-container/commit/99c9826f35b6ba07ab22da47e43917886c562b6f))
+* **release:** 1.0.6 [skip ci] ([0240243](https://github.com/w4bo/dev-container/commit/0240243a7023e09d748182797950bc1aea8b58c9))
+* **release:** 1.0.7 [skip ci] ([ed9af3f](https://github.com/w4bo/dev-container/commit/ed9af3f56e8050efaefc85ce1141b8c3ab1c7892))
+* **release:** 1.1.0 [skip ci] ([345ffce](https://github.com/w4bo/dev-container/commit/345ffce2df141141f72b5dfb0bd657ff0679edbc))
+* Update LICENSE ([17821ed](https://github.com/w4bo/dev-container/commit/17821ed22abd914936edb6517835afb8b41d034c))
+* Update README.md ([2158577](https://github.com/w4bo/dev-container/commit/2158577fc42e9f13be1b1f606767b63e36e4c017))
+
 # [1.1.0](https://github.com/anitvam/dev-container/compare/v1.0.7...v1.1.0) (2024-02-15)
 
 
