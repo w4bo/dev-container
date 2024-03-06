@@ -1,8 +1,9 @@
 #!/bin/bash
 set -exo
 
-# Configure Public Key for dev user
-if [[ -z "$PUBLIC_KEY" ]]; then
+if [ -f "/home/dev/.ssh/authorized_keys" ]; then
+    echo 'File has been mounted.'
+else
     echo $PUBLIC_KEY >> /home/dev/.ssh/authorized_keys
 fi
 
