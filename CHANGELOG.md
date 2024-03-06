@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/w4bo/dev-container/compare/1.0.0...1.0.1) (2024-03-06)
+
+
+### Bug Fixes
+
+* **ci:** add release ([1154aec](https://github.com/w4bo/dev-container/commit/1154aec7a1a827989c5d687b891cdf377d9ba0fe))
+* **ci:** merge develop ([d60fe95](https://github.com/w4bo/dev-container/commit/d60fe95091abde1702f4e0158a51b91faa22fa33))
+* **ci:** trigger release on main ([9f15089](https://github.com/w4bo/dev-container/commit/9f1508992cbc1d4c47c123b2e25d28bd982526ed))
+
 ## 1.0.0 (2024-03-06)
 
 
