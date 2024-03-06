@@ -1,0 +1,28 @@
+name: Build Docker image
+
+on: [push, pull_request]
+
+jobs:
+    build:
+      runs-on: ubuntu-22.04
+      steps:
+        - uses: actions/checkout@v4
+        - name: Run docker
+          run: |
+            echo "YOUR_KEY_HERE!" >> authorized_keys
+            docker compose up -d
+    
+    release:
+      needs:
+        - build
+      if: github.event_name == 'push'
+      runs-on: ubuntu-22.04
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+        - name: Release
+          run: |
+            npm install
+            npx semantic-release --branches main
+          env:
+            GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
