@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/w4bo/sshd/compare/1.0.1...1.0.2) (2024-03-07)
+
+
+### Bug Fixes
+
+* **Dockerfile:** chown the .ssh folder ([0310c4c](https://github.com/w4bo/sshd/commit/0310c4cdd8572c73bce098a20f7dbf244bb07374))
+
 ## [1.0.1](https://github.com/w4bo/dev-container/compare/1.0.0...1.0.1) (2024-03-06)
 
 
