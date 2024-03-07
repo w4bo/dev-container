@@ -9,7 +9,7 @@ if [[ $PUBLIC_KEY ]]; then
 else
     echo "PUBLIC_KEY is not set"
 fi
-chown -R dev:dev .ssh
+chown -R dev:dev /home/dev/.ssh
 chmod 600 $file
 # Run SSH server
 /usr/sbin/sshd -D -e
