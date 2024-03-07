@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/w4bo/sshd/compare/1.0.2...1.0.3) (2024-03-07)
+
+
+### Bug Fixes
+
+* **Dockerfile:** fix the path of the .ssh folder ([ad392a1](https://github.com/w4bo/sshd/commit/ad392a15582dff2eb13014c8282c68e85006e97c))
+
 ## [1.0.2](https://github.com/w4bo/sshd/compare/1.0.1...1.0.2) (2024-03-07)
 
 
