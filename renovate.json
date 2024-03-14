@@ -3,5 +3,5 @@
   "extends": [
     "github>DanySK/renovate-config:kotlin", ":semanticCommitTypeAll(fix)"
   ],
-  "assignees": ["anitvam"]
+  "assignees": ["w4bo"]
 }
