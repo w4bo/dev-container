@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/w4bo/sshd/compare/1.0.3...1.0.4) (2024-03-15)
+
+
+### Bug Fixes
+
+* **deps:** update docker/build-push-action digest to 2cdde99 ([973997d](https://github.com/w4bo/sshd/commit/973997d90ca79a456373d9dd24728d6b87aee002))
+
 ## [1.0.3](https://github.com/w4bo/sshd/compare/1.0.2...1.0.3) (2024-03-07)
 
 
