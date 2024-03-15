@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/w4bo/sshd/compare/1.0.5...1.0.6) (2024-03-15)
+
+
+### Bug Fixes
+
+* **deps:** update docker/metadata-action digest to 7535934 ([d73a69c](https://github.com/w4bo/sshd/commit/d73a69c66344eebbe66fee3f42889e88254f8216))
+
 ## [1.0.5](https://github.com/w4bo/sshd/compare/1.0.4...1.0.5) (2024-03-15)
 
 
