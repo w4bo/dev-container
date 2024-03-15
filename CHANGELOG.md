@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/w4bo/sshd/compare/1.0.4...1.0.5) (2024-03-15)
+
+
+### Bug Fixes
+
+* **deps:** update docker/login-action digest to e92390c ([370a5ec](https://github.com/w4bo/sshd/commit/370a5ecee099656bdad7cc4cb4b9203fd8436fb7))
+
 ## [1.0.4](https://github.com/w4bo/sshd/compare/1.0.3...1.0.4) (2024-03-15)
 
 
